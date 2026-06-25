@@ -1,0 +1,390 @@
+body {
+    max-width: 1440px;
+    height: fit-content;
+    margin: auto;
+    background-color: #FFF5E6;
+    position: relative;
+    font-family: "Literata", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: #1B98A4;
+    overflow: scroll;
+}
+
+.bg {
+    position: relative;
+}
+
+#cir-gren {
+    position: absolute;
+    width: 88px;
+    height: 88px;
+    background-color: #8AE6A5;
+    top: 220px;
+    left: 50px;
+    z-index: -1;
+    border-radius: 50%;
+    animation: cirgren 2s ease infinite alternate;
+}
+
+@keyframes cirgren {
+    from {
+        top: 239px;
+        left: 53px;
+    }
+
+    to {
+        top: 210px;
+        transform: scale(1.1);
+    }
+}
+
+#cir-pink {
+    position: absolute;
+    width: 152px;
+    height: 152px;
+    background-color: #FFC7F6;
+    top: 600px;
+    right: 400px;
+    z-index: -1;
+    border-radius: 50%;
+    animation: cirpink 3.5s ease infinite alternate;
+}
+
+@keyframes cirpink {
+    from {
+        top: 600px;
+        transform: scale(1.1);
+    }
+
+    to {
+        top: 550px;
+    }
+}
+
+#cir-blu {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    background-color: #9BD4FF;
+    top: 150px;
+    right: 250px;
+    z-index: -1;
+    border-radius: 50%;
+    animation: cirblu 3s ease infinite alternate;
+}
+
+@keyframes cirblu {
+    from {
+        top: 159px;
+        right: 258px;
+    }
+
+    to {
+        top: 130px;
+        right: 248px;
+    }
+}
+
+#square-pink {
+    position: absolute;
+    width: 81px;
+    height: 81px;
+    background-color: #FFC7F6;
+    top: 66px;
+    left: 160px;
+    z-index: -1;
+    transform: rotate(21deg);
+    animation: squarepink 3s ease infinite alternate;
+}
+
+@keyframes squarepink {
+    from {
+        top: 76px;
+        transform: rotate(25deg);
+    }
+
+    to {
+        top: 53px;
+        transform: rotate(17deg);
+    }
+}
+
+#square-gren {
+    position: absolute;
+    width: 129px;
+    height: 129px;
+    background-color: #8AE6A5;
+    top: 528px;
+    right: 160px;
+    z-index: -1;
+    transform: rotate(-28deg);
+    animation: squaregren 2s ease infinite alternate;
+}
+
+@keyframes squaregren {
+    from {
+        top: 521px;
+        right: 163px;
+        transform: rotate(-25deg);
+    }
+
+    to {
+        top: 540px;
+        transform: rotate(-30deg);
+    }
+}
+
+#square-purp {
+    position: absolute;
+    width: 190px;
+    height: 190px;
+    background-color: #EBA9FF;
+    top: 560px;
+    left: 137px;
+    z-index: -1;
+    transform: rotate(56deg);
+    animation: squarepurp 1.7s ease infinite alternate;
+}
+
+@keyframes squarepurp {
+    from {
+        top: 488px;
+    }
+
+    to {
+        top: 502px;
+    }
+}
+
+#square-red {
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    background-color: #FFB5B5;
+    top: 360px;
+    right: 20px;
+    z-index: -1;
+    transform: rotate(20deg);
+    animation: squarered 2.5s ease infinite alternate;
+}
+
+@keyframes squarered {
+    from {
+        top: 370px;
+        transform: rotate(20deg);
+    }
+
+    to {
+        top: 340px;
+        transform: rotate(24deg);
+    }
+}
+
+#rect-red {
+    position: absolute;
+    width: 179px;
+    height: 75px;
+    background-color: #FFB5B5;
+    top: 200px;
+    left: 446px;
+    z-index: -1;
+    transform: rotate(65deg);
+    animation: rectred 3s ease infinite alternate;
+}
+
+@keyframes rectred {
+    from {
+        top: 180px;
+    }
+
+    to {
+        top: 240px;
+    }
+}
+
+#rect-yell {
+    position: absolute;
+    width: 78px;
+    height: 200px;
+    background-color: #FFF09B;
+    top: 350px;
+    left: 50px;
+    z-index: -1;
+    transform: rotate(40deg);
+    animation: rectyell 3s ease infinite alternate;
+}
+
+@keyframes rectyell {
+    from {
+        top: 340px;
+        transform: rotate(41deg);
+    }
+
+    to {
+        top: 375px;
+        transform: rotate(48deg);
+    }
+}
+
+header {
+    position: sticky;
+    background-color: #53CFDB;
+    width: 100%;
+    padding-top: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: #1B98A4;
+}
+
+h1 {
+    font-family: "Lilita One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+    font-size: 64px;
+    color: #F2F2F2;
+}
+
+h2 {
+    font-family: "Lilita One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+    margin: 0;
+    color: #F2F2F2;
+}
+
+h3 {
+    font-family: "Lilita One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#mainLogo {
+    display: flex;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#logoname {
+    align-self: center;
+}
+
+.navigation {
+    display: flex;
+    font-size: 20px;
+    border-top: 5px dashed #1B98A4;
+}
+
+.navigation p {
+    flex: 1;
+    text-align: center;
+    border-right: 5px dashed #1B98A4;
+}
+
+#contact {
+    border-right: none;
+}
+
+main {
+    margin: auto;
+    position: absolute;
+    width: 1100px;
+    height: 650px;
+    justify-self: center;
+    justify-content: center;
+    display: flex;
+    gap: 10px;
+    margin-top: 1.2em;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#design ul {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 10px;
+    padding: 10px;
+}
+
+li {
+    font-size: 20px;
+}
+
+#other {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#me {
+    height: 400px;
+    background-color: white;
+    border: 5px solid orange;
+}
+
+#me img {
+    width: 250px;
+    display: block;
+    justify-self: center;
+    top: 15px;
+    position: relative;
+    border: 5px solid orange;
+}
+
+#image {
+    width: 350px;
+    height: 109.5px;
+    background-color: white;
+    border: 5px solid orange;
+    padding: 5px;
+}
+
+#mywork {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#design {
+    background-color: white;
+    border: 5px solid orange;
+    width: 550px;
+    height: 200px;
+    padding: 5px;
+}
+
+#digi {
+    display: flex;
+    gap: 10px;
+}
+
+.second {
+    height: 300px;
+    width: 260px;
+    background-color: white;
+    border: 5px solid orange;
+    padding: 5px;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(255, 0, 0, 0.545);
+    color: white;
+    text-align: center;
+}
