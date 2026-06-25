@@ -1,0 +1,254 @@
+body {
+    max-width: 1200px;
+    max-height: 750px;
+    background-color: #3E2F2D;
+    position: relative;
+    margin: auto;
+    font-family: "Kelly Slab", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+#game {
+    z-index: 0;
+    position: fixed;
+    background-image: url(images/monsterbg.jpg);
+    width: 1200px;
+    height: 750px;
+    margin: auto
+}
+
+#intro {
+    z-index: 1;
+    position: fixed;
+    background-image: url(images/startbg.jpg);
+    width: 1200px;
+    height: 750px;
+    margin: auto
+}
+
+#start {
+    margin-top: 45px;
+    justify-self: center;
+    display: block;
+}
+
+.instruction {
+    padding: 15px;
+    font-size: 16px;
+    color: white;
+    line-height: 1em;
+}
+
+.warn {
+    text-align: center;
+    justify-self: center;
+    background-color: #FFE500;
+    color: #211210;
+    width: fit-content;
+    padding: 10px;
+    margin-top: 30px;
+}
+
+form {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    justify-self: center;
+    column-gap: 200px;
+    row-gap: 50px;
+    font-size: 25px;
+    margin-top: 30px;
+}
+
+
+#num {
+    font-size: 36px;
+    width: 100px;
+}
+
+.settings {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    flex: 1;
+    color: white;
+}
+
+.settings input {
+    font-family: "Jersey 10", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    background-color: rgb(255, 176, 176);
+    border-color: rgb(216, 128, 128);
+    border-style:groove;
+}
+
+h1 {
+    font-size: 96px;
+    margin-top: 0;
+    margin-bottom: 0px;
+    color: white;
+    text-shadow: 5px 0px #3E2F2D;
+}
+
+#main-game {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    justify-self: center;
+}
+
+.battle-zone {
+    width: 366px;
+    height: fit-content;
+    /* background-color: #ffe6007c; */
+    padding: 15px;
+}
+
+.player-info {
+    display: flex;
+    gap: 5px;
+}
+
+.icon {
+    width: 80px;
+    height: 80px;
+    background-color: #211210;
+}
+
+.player-name {
+    width: 281px;
+    border-top: none;
+    border-right: none;
+    border-left-color: #FFE500;
+    border-bottom-color: #FFE500;
+    border-left-width: 5px;
+    border-bottom-width: 5px;
+    font-size: 48px;
+    color: white;
+    font-family: "Kelly Slab", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background: none;
+    text-shadow: 5px 5px 3px #211210cc;
+}
+
+.player-name::placeholder {
+    color: white;
+    text-shadow: 5px 5px 3px #211210cc;
+}
+
+.battle {
+    margin-top: 5px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: white;
+    width: 356px;
+    height: fit-content;
+    background-color: rgb(49, 49, 49);
+}
+
+.monster {
+    background-color: #3E3E3E;
+    height: 410px;
+}
+
+.hp {
+    background-color: black;
+    color: white;
+    border-top-style: dashed;
+    border-top-width: 5px;
+    border-color: white;
+    padding: 7px;
+
+    font-family: "Jersey 10", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.hp-info {
+    display: flex;
+    margin: 0;
+    justify-content: space-between;
+    width: 95%;
+    justify-self: center;
+}
+
+.hp-info p {
+    margin-bottom: 0;
+    margin-top: 5px;
+}
+
+.hp-title {
+    font-size: 36px;
+}
+
+.health {
+    padding: 10px;
+    padding-top: 5px;
+}
+
+.hp-bar {
+    width: 100%;
+    height: 15px;
+    border-color: white;
+    border-width: 1.5px;
+    border-style: solid;
+}
+.hpnum {
+    color: #FFE500;
+    font-size: 30px;
+    align-self: flex-end;
+}
+
+.hp-barinner {
+    width: 100%;
+    background-color: red;
+    height: 15px;
+}
+
+#action-zone {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 70px;
+}
+
+#action-display p {
+    font-size: 36px;
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#dice-display {
+    display: flex;
+    gap: 20px;
+}
+
+#action-display {
+    margin: 10px;
+}
+
+.dice {
+    width: 103px;
+    height: 103px;
+    background-color: white;
+}
+
+.buttons {
+    min-width: 222px;
+    height: 73px;
+    background-color: #75631E;
+    font-size: 48px;
+    color: white;
+    font-family: "Kelly Slab", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    border: none;
+    padding: 10px;
+}

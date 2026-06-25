@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MadLibs</title>
+
+    <!-- Normalize CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Racing+Sans+One&family=Space+Mono&display=swap" rel="stylesheet">
+    
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- JavaScript -->
+    <script src="script.js" defer></script> 
+</head>
+<body>
+    <header>
+        <h1>A Story of a Lifetime</h1>
+    </header>
+
+    <footer>
+        <time datetime="2026-04-13">April 13th, 2026</time><br>
+        <time datetime="15:00" id="mainclock">3:00 PM</time>
+    </footer>
+
+    <main>
+        <section id="sec-1">
+            <form>
+                <label for="newName">Make a new name:</label>
+                <input type="text" id="newName">
+
+                <label for="nme">A first name:</label>
+                <input type="text" id="nme">   
+
+                <label for="acro">Make a three-letter acronym:</label>
+                <input type="text" id="acro">
+                
+                <label for="date">Enter a date:</label>
+                <input type="date" id="date"> 
+                
+                <label for="adj1">Adjective 1:</label>
+                <input type="text" id="adj1">
+                
+                <label for="adj2">Adjective 2:</label>
+                <input type="text" id="adj2">
+                
+                <label for="obj1">Object or creature 1:</label>
+                <input type="text" id="obj1">   
+
+                <label for="obj2">Object or creature 2:</label>
+                <input type="text" id="obj2">   
+            </form>
+
+            <button type="button" class="buttons">Next Page</button>
+        </section> 
+
+        <section id="sec-2">
+            <form>
+                <label for="place">Place 1:</label>
+                <input type="text" id="place">   
+                
+                <label for="place2">Place 2:</label>
+                <input type="text" id="place2">   
+               
+                <label for="pastVerb">A verb in past tense:</label>
+                <input type="text" id="pastVerb">
+
+                <label for="emo">An emotion:</label>
+                <input type="text" id="emo">
+                
+                <label for="num">A number:</label>
+                <input type="number" id="num">   
+                
+                <label for="bod">A body part:</label>
+                <input type="text" id="bod" >   
+
+                <label for="verbing">Verb ending in -ing:</label>
+                <input type="text" id="verbing">
+                
+                <label for="tim">A length of time:</label>
+                <input type="text" id="tim">
+            </form>
+
+            <input type="submit" value="Breaking News!" class="buttons">
+        </section>
+
+        <section id="sec-3">
+            <div>
+                <h2>Breaking News!!</h2>
+                <p>I’m <strong>Joe Joba</strong> coming to you live on <strong>JJ</strong> News. On <strong>October 10th, 2021</strong>, a <strong>derpy</strong> <strong>narwhal</strong> was spotted at the <strong>sewer</strong>. Onlookers <strong>drank</strong>, looking very <strong>hopeless</strong>. One witness, going by the alias <strong>Majoba</strong> the <strong>Sweaty</strong> had this to say, “I was on my way to the <strong>AC vent</strong>, when I saw the <strong>narwhal</strong>. It tore up the street, I barely made it out alive with all <strong>6.7</strong> of my <strong>toe</strong>(s)!! Completely ruined my day that’s for sure. I didn’t even go <strong>flipping</strong> with my buds. It’s a conspiracy I tell you, this is the work of the <strong>Spatula</strong>-Man!!” The authorities are continuing to investigate the matter and we expect to have an update <strong>1 second</strong> from now. Please stay tuned.</p>
+				
+                <p id="closing">I’m <strong>Joe Joba</strong> and good night.</p>
+
+                <input type="button" value="Our Next Story..." class="buttons">
+                <input type="button" value="Save Story" class="buttons">
+            </div>
+
+        </section> 
+    </main>
+    
+</body>
+</html>

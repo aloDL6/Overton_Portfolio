@@ -1,0 +1,450 @@
+body {
+    background-color: #FFFBF4;
+    font-family: "Literata", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: #1B98A4;
+    padding: 0;
+    margin: auto;
+    overflow: hidden;
+}
+
+#container {
+    min-width: 800px;
+    margin: auto;
+}
+
+.bg {
+    position: relative;
+}
+
+#cir-gren {
+    position: absolute;
+    width: 88px;
+    height: 88px;
+    background-color: #8AE6A5;
+    top: 220px;
+    left: 50px;
+    z-index: -1;
+    border-radius: 50%;
+    animation: cirgren 2s ease infinite alternate;
+}
+
+@keyframes cirgren {
+    from {
+        top: 239px;
+        left: 53px;
+    }
+
+    to {
+        top: 210px;
+        transform: scale(1.1);
+    }
+}
+
+#cir-pink {
+    position: absolute;
+    width: 152px;
+    height: 152px;
+    background-color: #FFC7F6;
+    top: 600px;
+    right: 400px;
+    z-index: -1;
+    border-radius: 50%;
+    animation: cirpink 3.5s ease infinite alternate;
+}
+
+@keyframes cirpink {
+    from {
+        top: 600px;
+        transform: scale(1.1);
+    }
+
+    to {
+        top: 550px;
+    }
+}
+
+#cir-blu {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    background-color: #9BD4FF;
+    top: 150px;
+    right: 250px;
+    z-index: -1;
+    border-radius: 50%;
+    animation: cirblu 3s ease infinite alternate;
+}
+
+@keyframes cirblu {
+    from {
+        top: 159px;
+        right: 258px;
+    }
+
+    to {
+        top: 130px;
+        right: 248px;
+    }
+}
+
+#square-pink {
+    position: absolute;
+    width: 81px;
+    height: 81px;
+    background-color: #FFC7F6;
+    top: 66px;
+    left: 160px;
+    z-index: -1;
+    transform: rotate(21deg);
+    animation: squarepink 3s ease infinite alternate;
+}
+
+@keyframes squarepink {
+    from {
+        top: 76px;
+        transform: rotate(25deg);
+    }
+
+    to {
+        top: 53px;
+        transform: rotate(17deg);
+    }
+}
+
+#square-gren {
+    position: absolute;
+    width: 129px;
+    height: 129px;
+    background-color: #8AE6A5;
+    top: 528px;
+    right: 160px;
+    z-index: -1;
+    transform: rotate(-28deg);
+    animation: squaregren 2s ease infinite alternate;
+}
+
+@keyframes squaregren {
+    from {
+        top: 521px;
+        right: 163px;
+        transform: rotate(-25deg);
+    }
+
+    to {
+        top: 540px;
+        transform: rotate(-30deg);
+    }
+}
+
+#square-purp {
+    position: absolute;
+    width: 190px;
+    height: 190px;
+    background-color: #EBA9FF;
+    top: 560px;
+    left: 137px;
+    z-index: -1;
+    transform: rotate(56deg);
+    animation: squarepurp 1.7s ease infinite alternate;
+}
+
+@keyframes squarepurp {
+    from {
+        top: 488px;
+    }
+
+    to {
+        top: 502px;
+    }
+}
+
+#square-red {
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    background-color: #FFB5B5;
+    top: 360px;
+    right: 10px;
+    z-index: -1;
+    transform: rotate(20deg);
+    animation: squarered 2.5s ease infinite alternate;
+}
+
+@keyframes squarered {
+    from {
+        top: 370px;
+        transform: rotate(20deg);
+    }
+
+    to {
+        top: 340px;
+        transform: rotate(24deg);
+    }
+}
+
+#rect-red {
+    position: absolute;
+    width: 179px;
+    height: 75px;
+    background-color: #FFB5B5;
+    top: 200px;
+    left: 446px;
+    z-index: -1;
+    transform: rotate(65deg);
+    animation: rectred 3s ease infinite alternate;
+}
+
+@keyframes rectred {
+    from {
+        top: 180px;
+    }
+
+    to {
+        top: 240px;
+    }
+}
+
+#rect-yell {
+    position: absolute;
+    width: 78px;
+    height: 200px;
+    background-color: #FFF09B;
+    top: 350px;
+    left: 50px;
+    z-index: -1;
+    transform: rotate(40deg);
+    animation: rectyell 3s ease infinite alternate;
+}
+
+@keyframes rectyell {
+    from {
+        top: 340px;
+        transform: rotate(41deg);
+    }
+
+    to {
+        top: 375px;
+        transform: rotate(48deg);
+    }
+}
+
+header {
+    position: sticky;
+    background-color: #53CFDB;
+    width: 100%;
+    padding-top: 5px;
+}
+
+h1 {
+    font-family: "Lilita One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+    font-size: 64px;
+    color: #F2F2F2;
+}
+
+h2 {
+    font-family: "Lilita One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+    margin: 0;
+    color: #F2F2F2;
+}
+
+h3 {
+    font-family: "Lilita One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#mainLogo {
+    display: flex;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#logoname {
+    align-self: center;
+}
+
+.navigation {
+    display: flex;
+    font-size: 20px;
+    border-top: 5px dashed #1B98A4;
+}
+
+.navigation p {
+    flex: 1;
+    text-align: center;
+    border-right: 5px dashed #1B98A4;
+}
+
+#contact {
+    border-right: none;
+}
+
+#switch {
+    display: flex;
+    justify-self: center;
+    margin-bottom: 60px;
+    margin-top: 10px;
+}
+
+#switch a {
+    color: #3B3939;
+    text-decoration: none;
+}
+
+#switch h2 {
+    color: #3B3939;
+}
+
+#left {
+    background-color: #01BCDD;
+    width: 115px;
+    height: 331px;
+    border-top-left-radius: 75px;
+    border-bottom-left-radius: 75px;
+    display: flex;
+    flex-direction: column;
+}
+
+#left .joystick {
+    width: 59px;
+    height: 59px;
+    background-color: #3B3939;
+    border-radius: 100%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+#left .buttons {
+    display: grid;
+    grid-template-columns: auto auto;
+    width: fit-content;
+    margin: auto;
+    transform: rotate(45deg);
+    margin-top: 20px;
+}
+
+#left .buttons div {
+    width: 25px;
+    height: 25px;
+    background-color: #3B3939;
+    border-radius: 100%;
+    margin: 10px;
+}
+
+main {
+    display: flex;
+    background-color: #3B3939;
+    justify-self: center;
+    gap: 15px;
+    padding: 20px;
+    width: 757px;
+}
+
+main div {
+    flex: 1;
+    background-color: #A9A9A9;
+    border-radius: 10px;
+}
+
+main div h2 {
+    background-color: #cdcdcd;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin: 0;
+    padding-top: 16.6px;
+    padding-bottom: 16.6px;
+    padding-left: 10px;
+}
+
+main ul {
+    margin: 0;
+}
+
+main ul li {
+    list-style-type: none;
+    font-size: 16px;
+    padding: 15px;
+    background-color: #A9A9A9;
+    transition: all 1s ease;
+}
+
+main ul li a {
+    transition: all 1s ease;
+    padding-right: 10px;
+}
+
+main ul li:hover {
+    background-color: #FFF09B;
+    transform: scale(1.2);
+}
+
+#switch a:hover {
+    color: #b94ec0;
+}
+
+main ul {
+    padding-left: 0;
+}
+
+main h2 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+#right {
+    background-color: #F17271;
+    width: 115px;
+    height: 331px;
+    border-top-right-radius: 75px;
+    border-bottom-right-radius: 75px;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+#right .joystick {
+    width: 59px;
+    height: 59px;
+    background-color: #3B3939;
+    border-radius: 100%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+#right .buttons {
+    display: grid;
+    grid-template-columns: auto auto;
+    width: fit-content;
+    margin: auto;
+    transform: rotate(45deg);
+    margin-bottom: 20px;
+}
+
+#right .buttons div {
+    width: 25px;
+    height: 25px;
+    background-color: #3B3939;
+    border-radius: 100%;
+    margin: 10px;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(255, 0, 0, 0.545);
+    color: white;
+    text-align: center;
+}
