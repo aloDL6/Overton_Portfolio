@@ -427,7 +427,7 @@ h3 {
 
 .post {
     background-color: #3B3939;
-    width: 900px;
+    width: 950px;
     border-radius: 10px;
 }
 
@@ -453,8 +453,10 @@ h3 {
     margin-top: 2em;
 }
 
-.content .contentstart {
-    margin-top: 1em;
+video {
+    left: 200px;
+    position: relative;
+    margin-top: 15px;
 }
 
 .postbanner {
@@ -477,10 +479,6 @@ h2 {
     line-height: 2em;
 }
 
-.switch a:hover {
-    color: #b94ec0;
-}
-
 li {
     color: #64b77d;
     text-decoration: underline;
@@ -493,46 +491,29 @@ img {
     padding-bottom: 10px;
 }
 
-figure {
-    float: right;
-    margin: 1.1em;
-    margin-top: 30px;
-    font-size: 16px;
-    font-style: italic;
+.slides {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
 }
 
-figcaption {
-    text-align: right;
+#left {
+    width: 50;
+    height: fit-content;
 }
 
-#pt1 .contentstart{
-    margin-top: 1em;
+#right {
+    width: 50;
+    height: fit-content;
+    transform: scale(-1);
+    top: -10px;
+    position: relative;
 }
 
-#pt1 {
-    padding: 15px;
-    transition: all 1.5s;
-}
-
-#pt1:hover {
-    background-color: #9eda9f61;
-    border-radius: 10%;
-    color: #baefb9;
-}
-
-#pt2 .contentstart{
-    margin-top: 1em;
-}
-
-#pt2 {
-    padding: 15px;
-    transition: all 1.5s;
-}
-
-#pt2:hover {
-    background-color: #da9ea061;
-    border-radius: 10%;
-    color: #efb9bb;
+#slideshow {
+    width: 800px;
+    height: fit-content;
 }
 
 footer {
