@@ -238,6 +238,12 @@ header {
 a {
     text-decoration: none;
     color: #1B98A4;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #d37373;
+    text-decoration: underline;
 }
 
 h1 {
