@@ -427,7 +427,7 @@ h3 {
 
 .post {
     background-color: #3B3939;
-    width: 900px;
+    width: 950px;
     border-radius: 10px;
 }
 
@@ -453,8 +453,10 @@ h3 {
     margin-top: 2em;
 }
 
-.content .contentstart {
-    margin-top: 1em;
+video {
+    left: 200px;
+    position: relative;
+    margin-top: 15px;
 }
 
 .postbanner {
@@ -510,7 +512,7 @@ img {
 }
 
 #slideshow {
-    width: 700px;
+    width: 800px;
     height: fit-content;
 }
 
