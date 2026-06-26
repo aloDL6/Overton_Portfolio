@@ -1,22 +1,11 @@
 body {
     background-color: #FFFBF4;
-    font-family: "Gantari", sans-serif;
-    font-weight: 500;
+    font-family: "Literata", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
     font-style: normal;
     color: #3B3939;
     font-size: 20px;
-}
-
-#banner h1 {
-    font-family: "Alata", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 82px;
-    margin: auto;
-    position: relative;
-    top: 60px;
-    text-shadow: 2px 1px #ffffff,
-    1px 5px 5px #bbaf9a;
 }
 
 #container {
@@ -29,83 +18,29 @@ body {
     position: relative;
 }
 
-#notes {
-    position: absolute;
-    width: 90px;
-    height: 90px;
-    background-image: url(images/notes.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    top: 70px;
-    right: 230px;
-    z-index: 0;
-    transform: rotate(7deg);
-    animation: note 3s ease infinite alternate;
+.bg2 {
+    position: relative;
+    top: 950px;
 }
 
-@keyframes note {
-    from {
-        top: 60px;
-    }
-
-    to {
-        top: 70px;
-    }
+.bg3 {
+    position: relative;
+    top: 1900px;
 }
 
-#buttons-left {
-    position: absolute;
-    width: 130px;
-    height: 130px;
-    background-image: url(images/buttons.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    top: 700px;
-    left: 10px;
-    z-index: 1;
-    transform: rotate(7deg);
-    animation: butleft 3s ease infinite alternate;
+.bg4 {
+    position: relative;
+    top: 2850px;
 }
 
-@keyframes butleft {
-    from {
-        top: 750px;
-        transform: rotate(5deg);
-    }
-
-    to {
-        top: 785px;
-        transform: rotate(10deg);
-    }
+.bg5 {
+    position: relative;
+    top: 3820px;
 }
 
-#buttons-right {
-    position: absolute;
-    width: 130px;
-    height: 130px;
-    background-image: url(images/buttons.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    top: 700px;
-    right: 10px;
-    z-index: 1;
-    transform: rotate(7deg);
-    animation: butright 2.5s ease infinite alternate;
-}
-
-@keyframes butright {
-    from {
-        top: 490px;
-        transform: rotate(-7deg);
-    }
-
-    to {
-        top: 525px;
-        transform: rotate(-13deg);
-    }
+.bg6 {
+    position: relative;
+    top: 4790px;
 }
 
 #cir-gren {
@@ -392,6 +327,83 @@ body {
     }
 }
 
+header {
+    position: sticky;
+    background-color: #53CFDB;
+    width: 100%;
+    padding-top: 5px;
+}
+
+#mainLogo {
+    display: flex;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#logoname {
+    align-self: center;
+}
+
+.navigation {
+    display: flex;
+    font-size: 20px;
+    border-top: 5px dashed #1B98A4;
+}
+
+.navigation p {
+    flex: 1;
+    text-align: center;
+    border-right: 5px dashed #1B98A4;
+}
+
+#contact {
+    border-right: none;
+}
+
+h1 {
+    font-family: "Lilita One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+    font-size: 64px;
+    color: #F2F2F2;
+}
+
+h2 {
+    font-family: "Lilita One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+    margin: 0;
+    color: #F2F2F2;
+}
+
+h3 {
+    font-family: "Lilita One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#banner h4 {
+    font-family: "Lilita One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 82px;
+    margin: auto;
+    position: relative;
+    top: 60px;
+    text-shadow: 2px 1px #ffffff,
+    1px 5px 5px #bbaf9a;
+}
+
+#banner p {
+    position: relative;
+    top: 70px;
+}
+
 #banner {
     max-width: 1100px;
     height: 250px;
@@ -403,7 +415,9 @@ body {
 .switch {
     display: flex;
     justify-self: center;
-    margin-bottom: 60px;
+    flex-direction: column;
+    height: fit-content;
+    margin-bottom: 15px;
 }
 
 .switch a {
@@ -436,7 +450,7 @@ body {
 }
 
 .content p {
-    margin-top: 2.4em;
+    margin-top: 2em;
 }
 
 .content .contentstart {
@@ -465,6 +479,61 @@ h2 {
 
 .switch a:hover {
     color: #b94ec0;
+}
+
+li {
+    color: #64b77d;
+    text-decoration: underline;
+    list-style-type: square;
+}
+
+img {
+    display: block;
+    border-radius: 10%;
+    padding-bottom: 10px;
+}
+
+figure {
+    float: right;
+    margin: 1.1em;
+    margin-top: 30px;
+    font-size: 16px;
+    font-style: italic;
+}
+
+figcaption {
+    text-align: right;
+}
+
+#pt1 .contentstart{
+    margin-top: 1em;
+}
+
+#pt1 {
+    padding: 15px;
+    transition: all 1.5s;
+    height: 700px;
+}
+
+#pt1:hover {
+    background-color: #9eda9f61;
+    border-radius: 10%;
+    color: #baefb9;
+}
+
+#pt2 .contentstart{
+    margin-top: 1em;
+}
+
+#pt2 {
+    padding: 15px;
+    transition: all 1.5s;
+}
+
+#pt2:hover {
+    background-color: #da9ea061;
+    border-radius: 10%;
+    color: #efb9bb;
 }
 
 footer {

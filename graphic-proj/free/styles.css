@@ -1,22 +1,11 @@
 body {
     background-color: #FFFBF4;
-    font-family: "Gantari", sans-serif;
-    font-weight: 500;
+    font-family: "Literata", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
     font-style: normal;
     color: #3B3939;
     font-size: 20px;
-}
-
-#banner h1 {
-    font-family: "Alata", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 82px;
-    margin: auto;
-    position: relative;
-    top: 60px;
-    text-shadow: 2px 1px #ffffff,
-    1px 5px 5px #bbaf9a;
 }
 
 #container {
@@ -52,85 +41,6 @@ body {
 .bg6 {
     position: relative;
     top: 4790px;
-}
-
-#notes {
-    position: absolute;
-    width: 90px;
-    height: 90px;
-    background-image: url(images/notes.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    top: 70px;
-    right: 230px;
-    z-index: 0;
-    transform: rotate(7deg);
-    animation: note 3s ease infinite alternate;
-}
-
-@keyframes note {
-    from {
-        top: 60px;
-    }
-
-    to {
-        top: 70px;
-    }
-}
-
-#buttons-left {
-    position: absolute;
-    width: 130px;
-    height: 130px;
-    background-image: url(images/buttons.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    top: 700px;
-    left: 10px;
-    z-index: 1;
-    transform: rotate(7deg);
-    animation: butleft 3s ease infinite alternate;
-}
-
-@keyframes butleft {
-    from {
-        top: 750px;
-        transform: rotate(5deg);
-    }
-
-    to {
-        top: 785px;
-        transform: rotate(10deg);
-    }
-}
-
-#buttons-right {
-    position: absolute;
-    width: 130px;
-    height: 130px;
-    background-image: url(images/buttons.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    top: 700px;
-    right: 10px;
-    z-index: 1;
-    transform: rotate(7deg);
-    animation: butright 2.5s ease infinite alternate;
-}
-
-@keyframes butright {
-    from {
-        top: 490px;
-        transform: rotate(-7deg);
-    }
-
-    to {
-        top: 525px;
-        transform: rotate(-13deg);
-    }
 }
 
 #cir-gren {
@@ -417,6 +327,83 @@ body {
     }
 }
 
+header {
+    position: sticky;
+    background-color: #53CFDB;
+    width: 100%;
+    padding-top: 5px;
+}
+
+#mainLogo {
+    display: flex;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#logoname {
+    align-self: center;
+}
+
+.navigation {
+    display: flex;
+    font-size: 20px;
+    border-top: 5px dashed #1B98A4;
+}
+
+.navigation p {
+    flex: 1;
+    text-align: center;
+    border-right: 5px dashed #1B98A4;
+}
+
+#contact {
+    border-right: none;
+}
+
+h1 {
+    font-family: "Lilita One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+    font-size: 64px;
+    color: #F2F2F2;
+}
+
+h2 {
+    font-family: "Lilita One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+    margin: 0;
+    color: #F2F2F2;
+}
+
+h3 {
+    font-family: "Lilita One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#banner h4 {
+    font-family: "Lilita One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 82px;
+    margin: auto;
+    position: relative;
+    top: 60px;
+    text-shadow: 2px 1px #ffffff,
+    1px 5px 5px #bbaf9a;
+}
+
+#banner p {
+    position: relative;
+    top: 70px;
+}
+
 #banner {
     max-width: 1100px;
     height: 250px;
@@ -428,8 +415,9 @@ body {
 .switch {
     display: flex;
     justify-self: center;
-    margin-bottom: 60px;
     flex-direction: column;
+    height: fit-content;
+    margin-bottom: 15px;
 }
 
 .switch a {
@@ -441,7 +429,6 @@ body {
     background-color: #3B3939;
     width: 900px;
     border-radius: 10px;
-    margin-bottom: 4em;
 }
 
 #sketch {
